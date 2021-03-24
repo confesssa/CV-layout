@@ -1,3 +1,23 @@
 body {
-  background: green;
+  background: #1f2424;
+  /* background: green; */
+}
+
+.block {
+  display: block;
+  width: 50px;
+  height: 50px;
+
+}
+
+.left {
+  float: left;
+  background: yellow;
+}
+
+.right {
+  float: none;
+  background: red;
+  width: 100px;
+  height: 100px;
 }

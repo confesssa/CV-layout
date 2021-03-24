@@ -1,23 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: #1f2424;
-  /* background: green; */
 }
 
-.block {
-  display: block;
-  width: 50px;
-  height: 50px;
-
+.main-container {
+  margin: 0 auto;
+  background: white;
+  width: 1025px;
 }
 
-.left {
-  float: left;
+.header {
+  background: #344eff;
+  width: 100%;
+  height: 253px;
+}
+
+.main {
   background: yellow;
+  height: 450px;
 }
 
-.right {
-  float: none;
-  background: red;
-  width: 100px;
-  height: 100px;
+.footer {
+  background: #344eff;
+  width: 100%;
+  height: 72px;
 }

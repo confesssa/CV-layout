@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
+html, body {
+  height: 100%;
+  min-height: 100%;
+}
+
 body {
   background: #1f2424;
 }
 
 .main-container {
+  background: yellow;
+  min-height: calc(100vh - 72px);
   margin: 0 auto;
-  background: white;
   width: 1025px;
 }
 
@@ -21,12 +27,28 @@ body {
 }
 
 .main {
-  background: yellow;
-  height: 450px;
+  /* background: yellow;
+  height: 450px; */
 }
 
 .footer {
   background: #344eff;
-  width: 100%;
+  clear: both;
   height: 72px;
+  position: fixed;
+  bottom: 0;
+  width: inherit;
+}
+
+
+.left {
+  float: left;
+  background: #FEFEFE;
+  width: 100px;
+}
+
+.right {
+  float: right;
+  background: red;
+  width: 100px;
 }

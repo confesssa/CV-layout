@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
@@ -20,35 +21,40 @@ body {
   width: 1025px;
 }
 
+/* HEADER */
 .header {
   background: #344eff;
-  width: 100%;
+  /* width: 100%; */
   height: 253px;
 }
 
 .header-container {
   background: rosybrown;
-  height: 80px;
-  width: 380px;
+  height: 140px;
+  width: 900px;
   margin: auto;
+}
+
+.header-container * {
+  color: white;
 }
 
 .header-photo {
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   float: left;
 }
 
 .header-title {
-  width: 40px;
-  height: 40px;
+  width: 200px;
+  height: 100px;
   background: tomato;
   float: left;
 }
 
 .header-contacts {
-  width: 200px;
+  width: 250px;
   height: 100px;
   background: red;
   float: left;
@@ -58,12 +64,29 @@ p > a {
   text-decoration: none;
   /* font-size: 46px; */
   opacity: 1;
-color:#fff;
 }
 
-.header-icons {
-  width: 40px;
-  height: 40px;
+p > a:hover {
+  color: red;
+}
+
+.header-icon {
+  width: 20px;
+  height: 20px;
+  float: left;
+  margin-right: 10px;
+}
+
+.header-info {
+  float: left;
+}
+
+.header-website {
+  clear: both;
+}
+
+.header-phone {
+  clear: both;
 }
 
 .main {

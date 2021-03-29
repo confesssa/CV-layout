@@ -29,10 +29,9 @@ body {
 }
 
 .header-container {
-  background: rosybrown;
-  height: 140px;
-  width: 900px;
+  width: 1000px;
   margin: auto;
+  padding-top: 50px;
 }
 
 .header-container * {
@@ -41,23 +40,29 @@ body {
 
 .header-photo {
   border-radius: 50%;
-  width: 100px;
-  height: 100px;
+  width: 145px;
+  height: 145px;
   float: left;
+  margin-right: 20px;
 }
 
 .header-title {
-  width: 200px;
-  height: 100px;
-  background: tomato;
   float: left;
+  margin-right: 100px;
+}
+
+.header-name {
+  font-size: 57px;
+}
+
+.header-profession {
+  font-size: 30px;
 }
 
 .header-contacts {
-  width: 250px;
-  height: 100px;
-  background: red;
+  width: 388px;
   float: left;
+  font-size: 27px;
 }
 
 .header-contacts * {
@@ -106,10 +111,15 @@ p > a:hover {
   width: 347px;
 }
 
+.section-header {
+  padding-top: 20px;
+}
+
 .section-image {
   float: left;
   background: blue;
   border-radius: 50%;
+  margin-right: 10px;
 
 }
 
@@ -121,10 +131,14 @@ p > a:hover {
 .section-title {
   float: left;
   color: #B3A3A0A0;
+  font-size: 34px;
+  padding-top: 7px;
 }
 
 .section-content {
   clear: both;
+  font-size: 23px;
+  padding-top: 15px;
 }
 
 .right-wrapper {

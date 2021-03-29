@@ -24,7 +24,6 @@ body {
 /* HEADER */
 .header {
   background: #344eff;
-  /* width: 100%; */
   height: 253px;
 }
 
@@ -36,6 +35,7 @@ body {
 
 .header-container * {
   color: white;
+  text-decoration: none;
 }
 
 .header-photo {
@@ -69,14 +69,8 @@ body {
   margin-bottom: 8px;
 }
 
-p > a {
-  text-decoration: none;
-  /* font-size: 46px; */
-  opacity: 1;
-}
-
 p > a:hover {
-  color: red;
+  opacity: 0.7;
 }
 
 .header-icon {
@@ -139,6 +133,18 @@ p > a:hover {
   clear: both;
   font-size: 23px;
   padding-top: 15px;
+}
+
+.interests-image {
+  border: blue 8px solid;
+  border-radius: 50%;
+  float: left;
+}
+
+.interests-icon {
+  width: 35px;
+  height: 35px;
+  padding: 5px;
 }
 
 .right-wrapper {
